@@ -128,6 +128,7 @@ a:hover {
         justify-content: space-around;
     background-color: #63D7E2;
     font-size: 1.2em;
+    border-bottom: 1px solid black;
   }
   header a:hover {
     color: teal;
