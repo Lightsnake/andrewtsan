@@ -169,7 +169,7 @@ a:hover {
   font-style: italic;
 }
 
-h2 {
+h1, h2 {
   -webkit-animation: fadein 5s;
   margin-bottom: 10px;
 }
