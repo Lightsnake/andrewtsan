@@ -290,6 +290,11 @@ h1, h2 {
           flex-direction: column;
 }
 
+.buttonGenerator {
+  width: 250px;
+  font-size: 1.2em;
+}
+
 @media (min-width: 500px) {
   .pSet {
     -webkit-box-orient: horizontal;
@@ -300,6 +305,9 @@ h1, h2 {
   .portfolio {
     margin: 30px;
     padding: 150px;
+  }
+  .buttonGenerator {
+    width: 400px;
   }
 }
 
