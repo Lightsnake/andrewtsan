@@ -1,4 +1,4 @@
-console.log("its working!");
+
 // Hamburger toggle
 let toggle = false;
 function menuToggle(){
