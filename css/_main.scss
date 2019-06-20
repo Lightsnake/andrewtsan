@@ -25,6 +25,20 @@
     
 }
 
+table,th,td{
+    border: 1px solid black;
+    -webkit-animation: fadein 6s;
+}
+
+table{
+ margin-top: 30px;
+ -webkit-animation: fadein 5s;
+}
+
+td{
+    padding: 5px;
+}
+
 h1, h2, p{  
     -webkit-animation: fadein 5s;
     margin-bottom: 10px;
@@ -119,12 +133,6 @@ h1, h2, p{
 }
 
 @media (min-width: 500px){
-    .main{
-        
-    }
-    .description{
-        
-    }
     .pSet{
         flex-direction: row;
     }

@@ -46,6 +46,7 @@ window.addEventListener('load', ()=>{
     }else{
         h1.textContext="Please enable geolocation to use this";
     }
+    
     function setIcons(icon, iconID){
         const skycons = new Skycons({color: "white"});
         const currentIcon = icon.replace (/-/g, "_").toUpperCase();
