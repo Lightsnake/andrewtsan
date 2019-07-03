@@ -432,6 +432,16 @@ button {
   font-size: 40px;
 }
 
+.contentCenter {
+  background-color: #001618;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * {
   margin: 0;
   padding: 0;
